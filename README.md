@@ -2,7 +2,7 @@
 A deep learning framework for gene ontology annotation with sequence- and network-based information.
 # Requirements
 
- torch (0.40)
+ torch (0.4.0)
  
  pandas (0.23.1)
  
@@ -13,8 +13,6 @@ A deep learning framework for gene ontology annotation with sequence- and networ
  torchvision (0.2.1)
  
  pickle
- 
- fire
  
 # Usage
 - download dataset and our trained model
