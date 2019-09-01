@@ -1,5 +1,5 @@
 # DeepGOA
-a deep neural networks for protein function prediction through combining sequence and PPI features.
+A deep learning framework for gene ontology annotation with sequence- and network-based information.
 # Requirements
 
  torch (0.40)
