@@ -16,8 +16,8 @@ A deep learning framework for gene ontology annotation with sequence- and networ
  
 # Usage
 - download dataset and our trained model
-
-  You first download [dataset](http://bioinformatics.csu.edu.cn/resources/softs/zhangfuhao/?tdsourcetag=s_pcqq_aiomsg) and save the dataset to the DeepGOA path. Before you run ouor saved mdoel, you should download [saved_model](http://bioinformatics.csu.edu.cn/resources/softs/zhangfuhao/?tdsourcetag=s_pcqq_aiomsg).
+You first need to download the source code and [dataset](http://bioinformatics.csu.edu.cn/resources/softs/zhangfuhao/?tdsourcetag=s_pcqq_aiomsg). Then you should extract the dataset to the DeepGOA directory. If you want to run our saved model, you should download [saved_model](http://bioinformatics.csu.edu.cn/resources/softs/zhangfuhao/?tdsourcetag=s_pcqq_aiomsg) and save to the DeepGOA directory.
+  
 - train model
 
   You can run the DeepGOA.py file to train DeepGOA and the model will be saved in checkpoints path. Before you run the Predict_DeepGOA.py file, you should move the model to the saved_model path or change the load path. If you want to tune some hyper-parameters, you can change some values of hyper-parameters in config.py in utils folder.
