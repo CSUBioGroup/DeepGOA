@@ -16,6 +16,7 @@ A deep learning framework for gene ontology annotation with sequence- and networ
  
 # Usage
 - download dataset and our trained model
+
 You first need to download the source code and [dataset](http://bioinformatics.csu.edu.cn/resources/softs/zhangfuhao/?tdsourcetag=s_pcqq_aiomsg). Then you should extract the dataset to the DeepGOA directory. If you want to run our saved model, you should download [saved_model](http://bioinformatics.csu.edu.cn/resources/softs/zhangfuhao/?tdsourcetag=s_pcqq_aiomsg) and save to the DeepGOA directory.
   
 - train model
