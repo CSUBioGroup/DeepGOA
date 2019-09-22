@@ -33,7 +33,9 @@ def compute_mcc(preds, labels, threshold=0.5):
     mcc = matthews_corrcoef(labels.flatten(), preds.flatten())
     return mcc
 
-
+"""
+Copied from: https://github.com/bio-ontology-research-group/deepgo/blob/master/evaluation.py
+"""
    
 def compute_performance(preds, labels, gos):
     predictions_max = None
@@ -85,7 +87,7 @@ def micro_score(output, label):
     total_P = np.sum(output)
     total_R = np.sum(label)
     TP = float(np.sum(output * label))
-    MiP = TP / max(total_P, 1e-12)  #1e-12是防止出现零
+    MiP = TP / max(total_P, 1e-12) 
     MiR = TP / max(total_R, 1e-12)
     if TP==0:
         MiF = 0
