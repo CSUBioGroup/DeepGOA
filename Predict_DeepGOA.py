@@ -107,7 +107,7 @@ def test(gpu_tag, model, loader,class_tag,data_flag):
         mcc = 0
     print("F_max\tPrecision\tRecall\tmcc\tauc\tthreadhold")
     if data_flag=="cafa":
-        print_result = "{0:.2f}\t{1:.2f}\t{2:.2f}\t{3:.2f}\t{4:.2f}\t:{5:.2f}\n".format(
+        print_result = "{0:.3f}\t{1:.3f}\t{2:.3f}\t{3:.3f}\t{4:.3f}\t:{5:.3f}\n".format(
             f_max, p_max, r_max, mcc, auc, t_max)
     else:
         print_result = "{0:.3f}\t{1:.3f}\t{2:.3f}\t{3:.3f}\t{4:.3f}\t{5:.3f}\n".format(
